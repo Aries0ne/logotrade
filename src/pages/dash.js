@@ -189,9 +189,13 @@ const Dash = () => {
 
   return (
     <div className="main-container">
-      <nav className="nav">
-        <h1>Test Project</h1>
-      </nav>
+   <nav className="nav1">
+  <div className="left-section">
+    <img className="logo" src="image/logo.jpg" alt="Logo"/>
+    <h1>Test Project</h1>
+  </div>
+  <img className="logo1" src="image/logo-vsn.jpg" alt="Secondary Logo"/>
+</nav>
 
       <main className="content">
         <div>
@@ -216,8 +220,6 @@ const Dash = () => {
         </div>
 
         <div className="searchbar">
-          <img src="image/Searchicon.png" alt="Search" />
-          <input type="text" placeholder="Search Your Thoughts" />
           <button className="search-button" onClick={handleSearch}>Search</button>
         </div>
 
